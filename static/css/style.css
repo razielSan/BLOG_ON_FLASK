@@ -1,8 +1,17 @@
-h1{
-color: red;
+*{
+padding: 0px;
+margin: 0px;
 }
 
 
-.wrapper{
-outline: 1px orange solid;
+html, body{
+height: 100%;
+}
+
+
+/*  MAIN MENU */
+
+.header{
+height: 140px;
+background-image: linear-gradient(to top, black, 20%, cyan);
 }
