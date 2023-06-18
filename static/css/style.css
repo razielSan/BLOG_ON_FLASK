@@ -9,6 +9,13 @@ height: 100%;
 }
 
 
+/* LOGO */
+
+.logo{
+float: left;
+margin-left: 80px;
+}
+
 /*  MAIN MENU */
 
 .header{
