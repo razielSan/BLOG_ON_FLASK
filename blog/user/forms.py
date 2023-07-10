@@ -28,7 +28,7 @@ def validate_email(self, email):
         raise ValidationError('That username is taken.Please choose a different one')
 
 
-class Login(FlaskForm):
+class LoginForm(FlaskForm):
     email = StringField('Емайл', validators=[DataRequired(), Email()])
     password = PasswordField('Пароль', validators=[DataRequired()])
     remember = BooleanField('Запомнить меня')
